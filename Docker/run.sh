@@ -10,7 +10,7 @@ initiate_docker_compose()
   clear
   figlet WELOCME TO 
   figlet AEYE WEB
-  docker-compose up 2>&1 | tee docker-compose.log
+  cd ../Docker/ && docker-compose up 2>&1 | tee docker-compose.log
 }
 
 npm_install()
@@ -21,8 +21,10 @@ npm_install()
 run()
 {
   npm_install
+
   initiate_docker_compose
 }
 
-npm_install
+run
+
 
