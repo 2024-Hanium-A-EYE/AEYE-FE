@@ -13,4 +13,16 @@ initiate_docker_compose()
   docker-compose up 2>&1 | tee docker-compose.log
 }
 
-initiate_docker_compose
+npm_install()
+{
+  cd AEYE_Front && npm install
+}
+
+run()
+{
+  npm_install
+  initiate_docker_compose
+}
+
+npm_install
+
