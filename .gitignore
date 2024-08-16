@@ -1,39 +1,41 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-/node_modules
+/AEYE_Front/node_modules
 /.pnp
-.pnp.js
-.yarn/install-state.gz
+/AEYE_Front/.pnp.js
+/AEYE_Front/.yarn/install-state.gz
 
 # testing
-/coverage
+/AEYE_Front/coverage
 
 # next.js
-/.next/
-/out/
+/AEYE_Front/.next/
+/AEYE_Front/out/
 
 # production
-/build
+/AEYE_Front/build
 
 # misc
 .DS_Store
-*.pem
+/AEYE_Front/*.pem
 
 # debug
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+/AEYE_Front/npm-debug.log*
+/AEYE_Front/yarn-debug.log*
+/AEYE_Front/yarn-error.log*
 
 # local env files
-.env*.local
+/AEYE_Front/.env*.local
 
 # vercel
-.vercel
+/AEYE_Front/.vercel
 
 # typescript
-*.tsbuildinfo
-next-env.d.ts
+/AEYE_Front/*.tsbuildinfo
+/AEYE_Front/next-env.d.ts
 
 # editor
-/.vscode
+/AEYE_Front/.vscode
+/AEYE_Front/node_modules
+
